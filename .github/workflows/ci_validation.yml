@@ -21,7 +21,7 @@ jobs:
         with:
           activate-environment: exocore
           environment-file: environment.yml
-          python-version: 3.5
+          python-version: 3.13.1
           auto-activate-base: false
       - run: |
           conda info
